@@ -7,10 +7,6 @@ export class NoticeController {
     testNoticeService() {
         return this.noticeService.test();
     }
-    @Get('faculty')
-    async get_all_faculty() {
-        return await this.noticeService.get_faculties();
-    }
     @Get(':size')
     async getNotices(@Param('size') size?:number) {
         const count = size ? size : 10;
