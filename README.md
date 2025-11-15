@@ -1,6 +1,8 @@
-# AIUB API  
-A modern, open-source API that provides **publicly available and non-sensitive** data from **American International University–Bangladesh (AIUB)**.  
-Built for developers, students, and automation tools that need structured AIUB data in a simple, reliable format.
+#  AIUB Public API (Unofficial)
+A modern, open-source REST API providing **publicly available JSON data** from 
+**American International University–Bangladesh (AIUB)**. Includes **faculty details, departments, designations, and university notices**. 
+Ideal for **developers, students, dashboards, and automation tools**.
+
 
 ---
 ## ⚠️ Disclaimer  
