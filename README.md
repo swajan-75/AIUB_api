@@ -1,4 +1,4 @@
-# AIUB Public Information API  
+# AIUB API  
 A modern, open-source API that provides **publicly available and non-sensitive** data from **American International University–Bangladesh (AIUB)**.  
 Built for developers, students, and automation tools that need structured AIUB data in a simple, reliable format.
 
