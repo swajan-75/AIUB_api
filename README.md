@@ -33,6 +33,54 @@ This project does **not** store or expose any private, sensitive, or restricted 
 ---
 
 ## 📡 API Endpoints (Example)
-GET /notice/:size                → Get recent notices (default: 10) <br>
-GET /faculty/all                 → Get all faculty information
+
+### 📝 Notice API (`/notice/:size`)
+
+```json
+{
+  "status": "success",
+  "data": [
+    {
+      "date": "12",
+      "month": "Jan",
+      "year": "2025",
+      "title": "Notice Title",
+      "desc": "Short description of the notice.",
+      "link": "https://www.aiub.edu/some-notice-link"
+    }
+  ]
+}
+#
+```
+
+## 👨‍🏫 Faculty API Response (`/faculty/all`)
+
+```json
+{
+  "status": "success",
+  "total": 350,
+  "data": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@aiub.edu",
+      "faculty": "Faculty of Science & Technology",
+      "designation": "Associate Professor",
+      "position": "Faculty",
+      "department": "Department of Computer Science",
+      "profile_photo": "https://www.aiub.edu/path/to/photo.jpg",
+      "profile_link": "https://www.aiub.edu/faculty-list/faculty-profile?q=john.doe#john.doe",
+      "room_number": "602",
+      "building_number": "6",
+      "academic_interests": [
+        "Machine Learning",
+        "Data Science"
+      ],
+      "research_interests": [
+        "Deep Learning",
+        "AI"
+      ]
+    }
+  ]
+}
+
 
